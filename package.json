@@ -1,0 +1,35 @@
+{
+  "name": "redis-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkoson/node-typscript-redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkoson/node-typscript-redis/issues"
+  },
+  "homepage": "https://github.com/Darkoson/node-typscript-redis#readme",
+  "dependencies": {
+    "connect-redis": "^6.1.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "ioredis": "^5.0.6"
+  },
+  "devDependencies": {
+    "@types/connect-redis": "0.0.18",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/ioredis": "^4.28.10",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.3"
+  }
+}
